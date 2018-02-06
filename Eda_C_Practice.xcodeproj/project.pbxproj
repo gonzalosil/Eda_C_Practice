@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		472644BB20292DA100A0B2D8 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 472644BA20292DA100A0B2D8 /* main.c */; };
+		47323A2A20294F7A0069EF4B /* list_manage.c in Sources */ = {isa = PBXBuildFile; fileRef = 47323A2620294F7A0069EF4B /* list_manage.c */; };
+		47323A2B20294F7A0069EF4B /* queue_handler.c in Sources */ = {isa = PBXBuildFile; fileRef = 47323A2720294F7A0069EF4B /* queue_handler.c */; };
+		47323A2C20294F7A0069EF4B /* stack_handler.c in Sources */ = {isa = PBXBuildFile; fileRef = 47323A2820294F7A0069EF4B /* stack_handler.c */; };
+		47323A2D20294F7A0069EF4B /* tree_handler.c in Sources */ = {isa = PBXBuildFile; fileRef = 47323A2920294F7A0069EF4B /* tree_handler.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,14 @@
 /* Begin PBXFileReference section */
 		472644B720292DA100A0B2D8 /* Eda_C_Practice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Eda_C_Practice; sourceTree = BUILT_PRODUCTS_DIR; };
 		472644BA20292DA100A0B2D8 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		47323A2220293F620069EF4B /* stack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = stack.h; sourceTree = "<group>"; };
+		47323A2320293F620069EF4B /* list.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = list.h; sourceTree = "<group>"; };
+		47323A2420293F620069EF4B /* queue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = queue.h; sourceTree = "<group>"; };
+		47323A2520293F620069EF4B /* binary_tree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = binary_tree.h; sourceTree = "<group>"; };
+		47323A2620294F7A0069EF4B /* list_manage.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = list_manage.c; sourceTree = "<group>"; };
+		47323A2720294F7A0069EF4B /* queue_handler.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = queue_handler.c; sourceTree = "<group>"; };
+		47323A2820294F7A0069EF4B /* stack_handler.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = stack_handler.c; sourceTree = "<group>"; };
+		47323A2920294F7A0069EF4B /* tree_handler.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = tree_handler.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +53,7 @@
 		472644AE20292DA100A0B2D8 = {
 			isa = PBXGroup;
 			children = (
+				47323A2120293F4F0069EF4B /* Headers */,
 				472644B920292DA100A0B2D8 /* Eda_C_Practice */,
 				472644B820292DA100A0B2D8 /* Products */,
 			);
@@ -57,9 +70,24 @@
 		472644B920292DA100A0B2D8 /* Eda_C_Practice */ = {
 			isa = PBXGroup;
 			children = (
+				47323A2620294F7A0069EF4B /* list_manage.c */,
+				47323A2720294F7A0069EF4B /* queue_handler.c */,
+				47323A2820294F7A0069EF4B /* stack_handler.c */,
+				47323A2920294F7A0069EF4B /* tree_handler.c */,
 				472644BA20292DA100A0B2D8 /* main.c */,
 			);
 			path = Eda_C_Practice;
+			sourceTree = "<group>";
+		};
+		47323A2120293F4F0069EF4B /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				47323A2520293F620069EF4B /* binary_tree.h */,
+				47323A2320293F620069EF4B /* list.h */,
+				47323A2420293F620069EF4B /* queue.h */,
+				47323A2220293F620069EF4B /* stack.h */,
+			);
+			path = Headers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,6 +147,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47323A2A20294F7A0069EF4B /* list_manage.c in Sources */,
+				47323A2C20294F7A0069EF4B /* stack_handler.c in Sources */,
+				47323A2D20294F7A0069EF4B /* tree_handler.c in Sources */,
+				47323A2B20294F7A0069EF4B /* queue_handler.c in Sources */,
 				472644BB20292DA100A0B2D8 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
