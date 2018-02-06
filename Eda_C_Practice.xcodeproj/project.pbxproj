@@ -53,7 +53,6 @@
 		472644AE20292DA100A0B2D8 = {
 			isa = PBXGroup;
 			children = (
-				47323A2120293F4F0069EF4B /* Headers */,
 				472644B920292DA100A0B2D8 /* Eda_C_Practice */,
 				472644B820292DA100A0B2D8 /* Products */,
 			);
@@ -70,11 +69,8 @@
 		472644B920292DA100A0B2D8 /* Eda_C_Practice */ = {
 			isa = PBXGroup;
 			children = (
-				47323A2620294F7A0069EF4B /* list_manage.c */,
-				47323A2720294F7A0069EF4B /* queue_handler.c */,
-				47323A2820294F7A0069EF4B /* stack_handler.c */,
-				47323A2920294F7A0069EF4B /* tree_handler.c */,
-				472644BA20292DA100A0B2D8 /* main.c */,
+				47323A2120293F4F0069EF4B /* Headers */,
+				47323A55202956480069EF4B /* Source Files */,
 			);
 			path = Eda_C_Practice;
 			sourceTree = "<group>";
@@ -88,6 +84,18 @@
 				47323A2220293F620069EF4B /* stack.h */,
 			);
 			path = Headers;
+			sourceTree = "<group>";
+		};
+		47323A55202956480069EF4B /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				47323A2620294F7A0069EF4B /* list_manage.c */,
+				47323A2720294F7A0069EF4B /* queue_handler.c */,
+				47323A2820294F7A0069EF4B /* stack_handler.c */,
+				47323A2920294F7A0069EF4B /* tree_handler.c */,
+				472644BA20292DA100A0B2D8 /* main.c */,
+			);
+			path = "Source Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
